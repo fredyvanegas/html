@@ -16,17 +16,27 @@
 </head>
 
 <body>
-    
-    <form action="https://www.google.com/search" method="GET">
-        <label for="user">Usuario: </label>
-        <input id="user" type="text" placeholder="Ingrese su nombre" name="q">
-        <br>
-        <label for="pass">Contraseña: </label>
-        <input id="pass" type="password" placeholder="Ingrese su password">
-        <br>
-        <button type="submit">Abrir</button>
-        <button type="reset">Borrar</button>
-    </form>
+
+    <table border="1">
+        <!-- encabezado de la tabla -->
+        <thead>
+            <!-- agregar filas -->
+            <th>uno</th>
+            <th>dos</th>
+            <th>tres</th>
+        </thead>
+        <!-- cuerpo de la tabla -->
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td colspan="2">2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
 
