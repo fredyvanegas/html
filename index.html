@@ -7,56 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My primera web</title>
     <style>
-        /* estilo por tag (afecta a todos los "div") */
-        /*
-        div {
-            color: blue;
-        } */
-        /* estilos por id (sólo afecta al elemento con el id) */
-        #primer-div {
-            /*color: blueviolet;*/
-            /* color por nombre*/
-            /*color: #571; */
-            /* color por hexadecimal; este color está abreviado */
-            /*color: rgb(100, 50, 25);*/
-            /* color por RGB; 0-0-0 es sin luz y 255-255-255 es todo luz */
-            color: rgba(77, 25, 135, 0.3)
-                /* el cuarto argumento es el "alpha" que indica el grado de transaparencia u opacidad; va de 0 (transparente) a 1 (todo su color) */
-        }
-
-        /* estilos por clases*/
-        .primer-div {
-            color: rgb(98, 0, 255);
-        }
-
-        .diferente {
-            color: brown;
-        }
+        /* pseudo elementos */
+       a:hover{
+        color:red;   
+        cursor: progress;
+       }
     </style>
 </head>
 
 <body>
-    <h1>Hola Mundo</h1>
-    <h2>Hola Mundo</h2>
-    <h3>Hola Mundo</h3>
-    <h4>Hola Mundo</h4>
-    <h5>Hola Mundo</h5>
-    <h6>Hola Mundo</h6>
-
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis est quas numquam aspernatur atque, quia tempora
-        reiciendis, doloribus dolorem, sunt corrupti corporis! Harum reiciendis cupiditate vel temporibus incidunt nam
-        totam.</p>
-    <!-- <div id="primer-div"> -->
-    <div class="primer-div">
-        <span>texto pequeño</span>
-        <br>
-        <span>texto <em>pequeño</em></span>
-        <h3>Hola <em>Mundo</em> </h3>
-    </div>
-
-    <div>
-        <p>Este div es diferente</p>
-    </div>
+    <a href="https://www.google.com" target="_blank">Ir a Google</a>
 </body>
 
 </html>
